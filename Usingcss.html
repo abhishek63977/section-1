@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using CSS</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+
+        p{
+            text-align:  center;
+            color: blue;
+            font-size:40px;
+        }
+
+        .mytag{
+            color: blueviolet;
+            font-weight: bold;
+            font-size: 50px;
+        }
+
+        #my-unique-tag{
+            color: brown;
+            text-decoration: underline;
+        
+            border: 5px double red;
+            font-size: 50px;
+            font-style: italic;
+        }
+
+        #mytag2{
+            color: green;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <!-- Inline CSS -->
+    <h1 style="color:darkblue;font-size: 60px; ">Inline CSS is used to style individual tags only</h1>
+    <h1>Inline CSS uses style attributes</h1>
+
+
+    <!-- Internal CSS -->
+
+    <p>Internal CSS is used to style entire page at once</p>
+    <p class="my tag" id="mytag2">Internal CSS is applied using style tag inside head tag</p>
+
+    <h2 class="my tag" id="mytag2">Class Selector is used to select element by their class name class</h2>
+
+    <h3 id="my-unique-tag">ID selector is used to select element by their id name</h3>
+
+    <!-- External CSS -->
+
+    <button>Using External CSS</button>
+    
+</body>
+</html>

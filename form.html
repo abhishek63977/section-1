@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Admission</title>
+</head>
+<body>
+    <form>
+
+
+        <h1>Student Admission Form</h1>
+        <hr>
+
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter Your Name" required minlength="8">
+        <br><br>
+        <label>Email</label>
+        <input type="text" placeholder="Enter Your Email"required>
+        <br><br>
+        <label>Date Of Birth</label>
+        <input type="date" placeholder="Enter Your DOB"required>
+        <br><br>
+        <label>Address</label>
+        <br><br>
+        <textarea cols="30" rows="10"></textarea>
+        <br><br>
+        <label>Gender -</label>
+        
+        <label>Male</label>
+        <input type="radio"name="Gender">
+        <label>Female</label>
+        <input type="radio"name="Gender">
+        <label>Transgender</label>
+        <input type="radio"name="Gender">
+
+        <br><br>
+        <label>Contact</label>
+        <input type="number">
+        <br><br>
+        <label for="Image">Upload Image</label>
+        <input hidden id="Image" type="File">
+        <br><br>
+        <label>Select Your City</label>
+        <Select>
+            <option>Lucknow</option>
+            <option>Nainital</option>
+            <option>Bodhgaya</option>
+        </Select>
+        <br><br>
+        <label>Select Course</label>
+        <input type="text" list="Course">
+        <datalist id="Course">
+            <option>MCA</option>
+            <option>BBA</option>
+            <option>B.TECH</option>
+            <option>BA</option>
+            <option>MA</option>
+        </datalist>
+        <br><br>
+        <input type="checkbox"> Accept Terms and Conditions
+
+        <br><br>
+        <details>
+        <summary>Terms And Conditions</summary>
+        <P>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, dolore quisquam officiis, dolor id vitae consectetur vero accusamus molestiae quidem aliquid distinctio explicabo tempore, ab sit sunt sequi optio nemo?
+        </P>
+        </details>
+
+        <br><br>
+        <button>
+            submit
+        </button>
+    </form>
+    
+</body>
+</html>
